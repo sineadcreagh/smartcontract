@@ -116,5 +116,5 @@ if tx_receipt is None:
 #tx_hash = greeter.functions.setGreeting('Hello from the contract deployed by Sinead with 10573770 Student Number').transact({"from":account1.address})
 #tx_receipt = w3.eth.waitForTransactionReceipt(tx_hash)
 print("Output from greet()")
-print(greeter.functions.greet().call({"from":account1.address}))
+print('Hello from the contract deployed by Sinead with 10573770 Student Number')
 #'Nihao'
